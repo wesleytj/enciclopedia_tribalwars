@@ -33,6 +33,7 @@ git clone https://github.com/wesleytj/enciclopedia-tribalwars.git
 cd enciclopedia-tribalwars
 npm install
 npm start
+```
 
 ## 📌 Autor
 
