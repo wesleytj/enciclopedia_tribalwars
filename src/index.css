@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./assets/font/EBGaramond-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dutch Mediaeval';
+  src: url('./assets/font/dutchMediaeval-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

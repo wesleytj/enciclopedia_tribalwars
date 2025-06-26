@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: ['"EB Garamond"', 'serif'],
+        content: ['"Dutch Mediaeval"', 'serif'],
+      },
+      backgroundImage: {
+        'castle-wall': "url('/src/assets/images/stone-wall-bg.png')",
+      },
+    },
   },
   plugins: [],
 }
