@@ -12,6 +12,9 @@ module.exports = {
       backgroundImage: {
         'castle-wall': "url('/src/assets/images/stone-wall-bg.png')",
       },
+      colors: {
+        beigeLight: '#F0E0C0'
+      }
     },
   },
   plugins: [],

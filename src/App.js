@@ -1,6 +1,7 @@
 import GoldBox from "./components/GoldBox";
 import Logo from "./components/Logo";
 import logoTW from "./assets/images/logo-tw.png";
+import ButtonRed from "./components/ButtonRed";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       flex flex-row justify-center items-center">
         <GoldBox>
           <h1 className="font-title text-[3rem] text-center
-          text-[#2f1b0c] drop-shadow-[2px_2px_1px_rgba(0,0,0,0.5)] mb-2 tracking-wide">Enciclopédia</h1>
-          <img src={logoTW} alt="Tribal Wars Logo" className="w-[400px] m-auto mb-10" />
+          text-[#2f1b0c] drop-shadow-[2px_2px_1px_rgba(0,0,0,0.5)] tracking-wide">Enciclopédia</h1>
+          <img src={logoTW} alt="Tribal Wars Logo" className="w-[350px] m-auto mb-10" />
           <p className="font-content text-lg text-justify text-zinc-800 px-4 leading-relaxed">
             A <strong>Enciclopédia Tribal Wars</strong> é um projeto independente criado para reunir, organizar e apresentar de forma acessível o vasto conhecimento sobre o universo do <em>Tribal Wars</em>.
             <br /><br />
@@ -21,6 +22,7 @@ function App() {
             <br /><br />
             🛡️ <strong>Explore. Aprenda. Conquiste.</strong>
           </p>
+          <ButtonRed>Começar</ButtonRed>
         </GoldBox>
       </main>
     </>

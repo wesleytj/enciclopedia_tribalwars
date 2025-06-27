@@ -1,0 +1,25 @@
+.button-red::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-image: url("../../public/images/button-red/left.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.button-red::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-image: url("../../public/images/button-red/right.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
